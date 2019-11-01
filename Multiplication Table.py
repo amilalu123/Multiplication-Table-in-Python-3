@@ -37,5 +37,5 @@ multiTable(num)
 print(prodList)
 print('\n')
 print('The multiplication table for {0} is:' .format(num))
-for index, res in enumerate(prodList, 1): # Creates multiplication table of a number using enumerate() method
-    print('{0} x {1} = {2}' .format(index, num, res))
+for index, ele in enumerate(prodList, 1): # Creates multiplication table of a number using enumerate() method
+    print('{0} x {1} = {2}' .format(index, num, ele))
